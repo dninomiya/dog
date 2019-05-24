@@ -9,6 +9,37 @@
         </button>
       </div>
     </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col col--4">
+            <div style="background: black; padding: 40px; color: white;">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+          <div class="col col--4">
+            <div style="background: black; padding: 40px; color: white;">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+          <div class="col col--4">
+            <div style="background: black; padding: 40px; color: white;">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+          <div class="col col--6">
+            <div style="background: black; padding: 40px; color: white;">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+          <div class="col col--6">
+            <div style="background: black; padding: 40px; color: white;">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

@@ -12,7 +12,20 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.8.2/css/all.css',
+        integrity:
+          'sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay',
+        crossorigin: 'anonymous'
+      }
+    ]
   },
 
   /*
@@ -41,7 +54,10 @@ export default {
   ],
 
   styleResources: {
-    scss: ['@/assets/css/lib/_variables.scss', '@/assets/css/lib/_mixins.scss']
+    scss: [
+      '@/assets/css/libs/_variables.scss',
+      '@/assets/css/libs/_mixins.scss'
+    ]
   },
 
   /*

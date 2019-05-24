@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px;
+}
+
+@for $i from 1 through 12 {
+  .col--#{$i} {
+    width: $i / 12 * 100%;
+  }
+}
+
+.col {
+  padding: 16px;
+  box-sizing: border-box;
+  @include sp {
+    width: 100%;
+  }
+}

@@ -5,10 +5,15 @@ a {
   color: inherit;
 }
 
+@import "layouts/grid";
 @import "components/button";
 
 .container {
   max-width: 1300px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+body {
+  font-family: "Noto Sans JP";
 }
